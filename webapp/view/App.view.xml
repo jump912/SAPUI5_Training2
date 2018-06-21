@@ -17,7 +17,7 @@
 					<mvc:XMLView viewName="com.rizing.demo.mvc.view.Detail"/>
 				</content>
 			</Page>
-		</pages>
+		</pages> 
 	</App>
 		
 </mvc:View>

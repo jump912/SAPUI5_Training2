@@ -23,7 +23,7 @@
 				<cells>
 					<ObjectIdentifier title="{BusinessPartnerID}"/>
 					<ObjectIdentifier title="{CompanyName}"/>
-				</cells>
+				</cells> 
 			</ColumnListItem>
       </items>
    </Table>

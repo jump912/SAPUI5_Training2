@@ -13,7 +13,7 @@
 		}
 		}, {
 		"BusinessPartnerID": "0100000001",
-		"CompanyName": "Becker Berlin",
+		"CompanyName": "Becker Berlin", 
 		"Address": {  
 			"City": "Berlin",
 			"PostalCode": "13467",

@@ -12,7 +12,7 @@ sap.ui.define([
 			
 			// Try to display the first object if exist
 			var oContext = oModel.createBindingContext("/BusinessPartners/0");
-			this.getOwnerComponent().setBindingContext(oContext);
+			this.getOwnerComponent().setBindingContext(oContext); 
 		}
 		
 	});

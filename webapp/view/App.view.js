@@ -21,7 +21,7 @@ sap.ui.jsview("com.rizing.demo.mvc.view.App", {
 		
 		var oPageDetailView = sap.ui.view("detailPage", {
 			type: sap.ui.core.mvc.ViewType.XML,
-			viewName: "com.rizing.demo.mvc.view.Detail"
+			viewName: "com.rizing.demo.mvc.view.Detail" 
 		});
 		
 		//oPageDetailView.getController().nav = this.getController();

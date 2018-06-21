@@ -16,7 +16,7 @@
 				<ObjectAttribute text="{Address/City}" /> 
 				<ObjectAttribute text="{Address/Country}" /> 
 			</ObjectHeader>
-		</content>
+		</content> 
 	</Page>
 	
 		

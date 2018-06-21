@@ -13,7 +13,7 @@ sap.ui.define([
 				viewName: "com.rizing.demo.mvc.view.App"
 			});
 	
-			return oRootView;
+			return oRootView; 
 		}
 	});
 });

@@ -19,7 +19,7 @@ sap.ui.define([
 
 			var oPage = oApp.getPage(sPageId);
 			
-			oPage.setBindingContext(oContext);
+			oPage.setBindingContext(oContext); 
 
 		}
 	});
