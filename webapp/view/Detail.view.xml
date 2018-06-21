@@ -4,8 +4,8 @@
 	xmlns:mvc="sap.ui.core.mvc" >
 	
 	<Page
-		showNavButton="true"
-		navButtonPress="onNavBack" >
+		showNavButton="false" 
+	>
 		
 		<content>
 			<ObjectHeader 

@@ -12,11 +12,13 @@ sap.ui.define([
 		},
 		
 		onNavDetail: function(oEvent) {
+			var oContext = oEvent.getSource().getBindingContext();
+			
 			var sPageId = "detailPage";
-			oApp.to(sPageId);
+			//oApp.to(sPageId, oContext);
 
 			var oPage = oApp.getPage(sPageId);
-			var oContext = oEvent.getSource().getBindingContext();
+			
 			oPage.setBindingContext(oContext);
 
 		}
