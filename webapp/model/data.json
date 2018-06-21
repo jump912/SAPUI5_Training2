@@ -1,0 +1,26 @@
+{
+	"Count": "2",
+	"BusinessPartners": [{
+		"BusinessPartnerID": "0100000000",
+		"CompanyName": "SAP",
+		"Address": {  
+			"City": "Walldorf",
+			"PostalCode": "69190",
+			"Street": "Dietmar-Hopp-Allee",
+			"Building": "16",
+			"Country": "DE",
+			"AddressType": "02"
+		}
+		}, {
+		"BusinessPartnerID": "0100000001",
+		"CompanyName": "Becker Berlin",
+		"Address": {  
+			"City": "Berlin",
+			"PostalCode": "13467",
+			"Street": "Calvinstraße",
+			"Building": "36",
+			"Country": "DE",
+			"AddressType": "02"
+		}
+	}]
+}

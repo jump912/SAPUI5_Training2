@@ -1,0 +1,32 @@
+<mvc:View 
+	controllerName="com.rizing.demo.mvc.controller.Master" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc" >
+	
+	<Table
+      headerText="Number of Business Partners: {/Count}"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{/BusinessPartners}" >
+   		<columns>
+			<Column>
+				<Text text="BusinessPartnerID"/>
+			</Column>
+			<Column>
+				<Text text="CompanyName"/>
+			</Column>
+		</columns>
+      <items>
+         <ColumnListItem
+				type="Navigation"
+				press="onNavDetail">
+				<cells>
+					<ObjectIdentifier title="{BusinessPartnerID}"/>
+					<ObjectIdentifier title="{CompanyName}"/>
+				</cells>
+			</ColumnListItem>
+      </items>
+   </Table>
+		
+		
+</mvc:View>

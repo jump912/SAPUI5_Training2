@@ -1,0 +1,23 @@
+<mvc:View 
+	controllerName="com.rizing.demo.mvc.controller.App" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	displayBlock="true">
+	
+	<App class="sapUiSizeCompact" id="oApp" >
+		<pages>
+			<Page id="masterPage" title="Master Page" >
+				<content>
+					<mvc:XMLView viewName="com.rizing.demo.mvc.view.Master"/>
+				</content>
+			</Page>
+			
+			<Page id="detailPage" title="Detail Page" >
+				<content>
+					<mvc:XMLView viewName="com.rizing.demo.mvc.view.Detail"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+		
+</mvc:View>
